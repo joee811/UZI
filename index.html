@@ -15,6 +15,14 @@
             .thing{
                 background-color: black;
             }
+                audio {
+  width: 100%; /* makes the audio player stretch across the full width of the page */
+  background-color: #f2f2f2; /* changes the background color of the player */
+  border-radius: 10px; /* rounds the corners of the player */
+  margin: 20px auto; /* centers the audio player */
+  display: block; /* makes it a block element to center it */
+}
+
         </style>
     </head>
     <body onload="myFunction()">
@@ -23,6 +31,10 @@
       alert("never republish ANY of this as your own. this information is owned by GLITCH productions");
     }
   </script>
+            <audio id="myAudio" controls>
+  <source src="https://github.com/joee811/UZI/AUDIO.wav" type="audio/wav">
+</audio>
+
         <h1>UZI DOORMAN</h1>
         <h2>contents</h2>
         <a href="#basic-info">basic info</a><br>
