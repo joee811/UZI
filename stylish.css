@@ -8,6 +8,9 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-.thing{
+.thing {
   background-color: black;
+}
+a:visited {
+  color: blue;
 }
