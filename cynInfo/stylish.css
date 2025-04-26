@@ -1,4 +1,7 @@
-body {
+body{
   text-align: center;
   background-color: yellow;
+}
+a:visited{
+  color: blue;
 }
