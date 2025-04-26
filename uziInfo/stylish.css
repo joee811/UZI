@@ -10,7 +10,7 @@ table {
 }
 .thing {
   background-color: black;
-  border: 10px solod purple;
+  border: 10px solid purple;
 }
 a:visited {
   color: blue;
