@@ -7,7 +7,7 @@ h1, h2 {
 }
 .thing {
   background-color: yellow;
-  border: 10px solid blue;
+  border: 10px solid orange;
 }
 a:visited {
   color: blue;
