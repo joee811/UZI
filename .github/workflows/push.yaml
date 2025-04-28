@@ -1,8 +1,16 @@
 name: test
 on: [push]
 jobs:
-  job-thing:
+  start:
+    runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
+    steps:
+      - name: build-starter
+        env:
+          PROJECT: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "$PROJECT is the project id"
+  detector:
+    needs: start
     runs-on: ubuntu-latest
     steps:
       - name: dump-job-status
