@@ -5,6 +5,10 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
+      - name: calculations
+        env:
+          ALPACA: "not an alpaca"
+        run: echo "$ALPACA"
       - name: dump-job-status
         env:
           JOB_STATUS: ${{ job.status }}
