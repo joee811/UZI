@@ -5,8 +5,6 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
-      - name: calculations
-        run: echo "started calculations..."
       - name: dump-job-status
         env:
           JOB_STATUS: ${{ job.status }}
