@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+a:visited,a {
+  color: blue;
+}
+.thing {
+  background-color: orange;
+  border: 10px solid yellow;
+}
