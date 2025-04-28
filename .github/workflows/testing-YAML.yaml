@@ -5,4 +5,4 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "what is the point of this"
+      - run: echo "Deploying to $GITHUB_REF"
