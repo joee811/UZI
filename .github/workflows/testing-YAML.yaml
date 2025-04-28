@@ -1,0 +1,8 @@
+name: test
+on: [push]
+jobs:
+  start:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "what is the point of this"
